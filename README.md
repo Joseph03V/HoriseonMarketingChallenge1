@@ -1,6 +1,6 @@
 # Horiseon Marketing Page 
  
- # Functionality 
+ ## Functionality 
  This page is for a marketing agency. The website provides information for customers.
  The aspects in which Horiseon specializes in. 
 
