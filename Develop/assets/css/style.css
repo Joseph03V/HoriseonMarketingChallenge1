@@ -4,27 +4,27 @@
     margin: 0;
 }
 
-body {
+body { /* adds background color */
     background-color: #d9dcd6;
 }
 
-.header {
+.header { /* adds fonts and color to the header  */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+.header h1 { /* adds some formatting to the header */
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .seo {  /* adds color to the header  */
     color: #d9dcd6;
 }
 
-.header section {
+.header section { /* formatting and fonts to the header */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,25 +32,25 @@ body {
     font-size: 20px;
 }
 
-.header section ul {
+.header section ul { /* removes the marker */
     list-style-type: none;
 }
 
-.header section ul li {
+.header section ul li { /* formats the list */
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+a { /* adds color to the links in header  */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+p { /* formatting for the paragraphs */
     font-size: 16px;
 }
 
-.hero {
+.hero { /* adds the big meeting image at the top/middle of page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,23 +59,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /* sets image on left */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* sets image on right */
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /* adds formatting to the three sections under the meeting image */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+.benefits { /* this is the sidebar that shows the benefits */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,7 +86,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead { /* The following benefit classes just add formatting and color to the sidebar items */
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -134,7 +134,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+.search-engine-optimization { /* formatting and color to the first section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+.online-reputation-management { /* formatting and color to the second section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+.social-media-marketing { /* formatting and color to the third section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,7 +161,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.search-engine-optimization img { /* the following classes just add formatting to the images */
     max-height: 200px;
 }
 
@@ -173,7 +173,7 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2 { /* adds margins and formats the font of the headers for the three sections */
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,13 +188,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+.footer { /*adds formatting to the footer and also changes the font  */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+.footer h2 { /* footer formatting */
     font-size: 20px;
 }
